@@ -35,7 +35,7 @@ Paper List for NER
 - Long等。Hierarchical Region Learning for Nested Named Entity Recognition（2020EMNLP）[paper](https://www.aclweb.org/anthology/2020.findings-emnlp.430/)
 <br>简介：为了解决嵌套命名实体文本片段分类方法中存在的问题，运用短语结构中的知识，定义两个相连文本片段的相关程度，根据这个相关程度从底向上生成整个句子的所有候选文本片段，大大降低了时间复杂度，提高嵌套实体识别的性能。
 
--Xu等。A Supervised Multi-Head Self-Attention Network for Nested Named Entity Recognition（2021AAAI）[paper](https://www.aaai.org/AAAI21Papers/AAAI-6288.XuY.pdf)
+- Xu等。A Supervised Multi-Head Self-Attention Network for Nested Named Entity Recognition（2021AAAI）[paper](https://www.aaai.org/AAAI21Papers/AAAI-6288.XuY.pdf)
 <br>简介：以往的方法忽略了词和不同实体类型的语义关联，考虑到词在不同实体中扮演不同的角色，本方法采用监督的多头注意力机制建模头尾词对和每一种实体类型之间的关联，将一个多分类问题转换成N个二分类问题。
 
 ## Named entity recognition
@@ -45,8 +45,9 @@ Paper List for NER
 - Ma 等。 Simplify the Usage of Lexicon in Chinese NER（ACL2020）[paper](https://www.researchgate.net/publication/335233357_Simplify_the_Usage_of_Lexicon_in_Chinese_NER)  [code](https://github.com/v-mipeng/LexiconAugmentedNER)
 <br>简介：提出了一种简单但有效的方法，将词的信息融合到基于字的表示中，避免了设计复杂的序列标注结构，适用于其他的NER神经网络模型。这种方法基于softword，通过构建BMES集合的方式获取词的信息，最后将词的信息融合到字的表示中。
 
--Xu等。Better Feature Integration for Named Entity Recognition（2021NAACL）[paper](https://arxiv.org/abs/2104.05316)
+- Xu等。Better Feature Integration for Named Entity Recognition（2021NAACL）[paper](https://arxiv.org/abs/2104.05316)
 <br>简介：我们都知道从依存句法树中获取的长距离结构信息对命名实体识别性能提高有帮助，通常的做法是堆叠使用LSTM和图神经网络建模上下文信息和结构信息，然后这两者信息的交互形式不明确，而且性能提高不是很明显，所以本文通过更改LSTM中门控机制的方法将结构信息融入LSTM中，因此能明确两部分信息的交互。
+
 ## Others
 - Tian等。 - Joint ChineseWord Segmentation and Part-of-speech Tagging via Two-way Attentions of Auto-analyzed Knowledge（ACL2020）[paper](https://www.aclweb.org/anthology/2020.acl-main.735/)
 <br>简介：提出了一种用于中文分词和词性标注联合任务的神经网络模型TWASP，遵循基于字符的序列标注，使用双向注意机制将每个输入字符的上下文特征及其对应的句法知识结合起来。双向注意机制用于结合上下文特征及其对应的语法知识的每个输入字符，使用现有的语言处理工具包来获取上下文的自动分析语法知识。
