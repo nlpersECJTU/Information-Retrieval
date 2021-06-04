@@ -5,7 +5,7 @@ Paper List for NER
 - ju等。 A Neural Layered Model for Nested Named Entity Recognition（2018NAACL）[paper](https://www.aclweb.org/anthology/N18-1131/) [code](https://github.com/meizhiju/layered-bilstm-crf)
 <br>简介：多数命名实体识别(NER)系统只处理普通实体，而忽略内部嵌套实体，无法捕获底层文本中的细粒度语义信息。为了解决这一问题，我们提出了一种新的神经模型，通过动态叠加平面NER层来识别嵌套实体。
 
-- Wang等。 A Neural Transition-based Model for Nested Mention Recognition（2018EMNLP）[paper](https://www.aclweb.org/anthology/D18-1124/) [code(https://github.com/fishjh2/merge_label)
+- Wang等。 A Neural Transition-based Model for Nested Mention Recognition（2018EMNLP）[paper](https://www.aclweb.org/anthology/D18-1124/) [code](https://github.com/fishjh2/merge_label)
 <br>简介：首先将带有嵌套实体的句子映射到指定的森林，其中每个实体对应于森林的一个组成部分。基于shift-reduce的系统通过一个最大长度保证为句子长度三倍的动作序列，学习以自底向上的方式构建森林结构，在Stack-LSTM的基础上，系统进一步结合了一个基于字符的组件来捕获字母级别的模式。
 
 - Katiyar和Cardie。 Nested Named Entity Recognition Revisited（2018NAACL）[paper](https://www.aclweb.org/anthology/N18-1079/)
