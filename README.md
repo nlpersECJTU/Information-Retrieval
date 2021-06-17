@@ -48,7 +48,7 @@ Paper List for NER
 - Xu等。Better Feature Integration for Named Entity Recognition（2021NAACL）[paper](https://arxiv.org/abs/2104.05316)
 <br>简介：我们都知道从依存句法树中获取的长距离结构信息对命名实体识别性能提高有帮助，通常的做法是堆叠使用LSTM和图神经网络建模上下文信息和结构信息，然后这两者信息的交互形式不明确，而且性能提高不是很明显，所以本文通过更改LSTM中门控机制的方法将结构信息融入LSTM中，因此能明确两部分信息的交互。
 
--Lin等。TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition（2020ACL）[paper](https://www.aclweb.org/anthology/2020.acl-main.752/)[code](http://github.com/INK-USC/TriggerNER)
+- Lin等。TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition（2020ACL）[paper](https://www.aclweb.org/anthology/2020.acl-main.752/) [code](http://github.com/INK-USC/TriggerNER)
 <br>简介：对于一个新的领域，要构建命名实体识别神经网络模型就需要大量的标注数据，这往往是昂贵且耗时的，本文提出对语料进行“实体触发器”的标注，提出触发器匹配网络模型TMN，联合学习触发器表示和具有自注意的软匹配模块，从而可以很容易地泛化到对无监督句子进行标注，通过这种额外的标注可以促进实体识别模型标签的高效学习。
 
 ## Others
