@@ -38,6 +38,15 @@ Paper List for NER
 - Xu等。A Supervised Multi-Head Self-Attention Network for Nested Named Entity Recognition（2021AAAI）[paper](https://www.aaai.org/AAAI21Papers/AAAI-6288.XuY.pdf)
 <br>简介：以往的方法忽略了词和不同实体类型的语义关联，考虑到词在不同实体中扮演不同的角色，本方法采用监督的多头注意力机制建模头尾词对和每一种实体类型之间的关联，将一个多分类问题转换成N个二分类问题。
 
+- Wang等。Discontinuous Named Entity Recognition as Maximal Clique Discovery（2021ACL）[paper](https://arxiv.org/abs/2106.00218)
+<br>简介：将非连续命名实体识别问题转化为寻找句子片段图中最大团的方法。通过网格标记方案，可以在一个阶段内分别生成节点和边，使用新的Mac架构共同学习。
+
+- Li等。A Span-Based Model for Joint Overlapped and Discontinuous Named Entity Recognition（2021ACL）[paper](https://www.researchgate.net/publication/353065282_A_Span-Based_Model_for_Joint_Overlapped_and_Discontinuous_Named_Entity_Recognition) [code]( https://github.com/foxlf823/sodner)
+<br>简介：提出了一种新的基于跨的模型，可以同时识别重叠和不连续的实体，首先，通过遍历所有可能的文本范围来识别实体片段，从而识别重叠的实体。其次，我们进行关系分类，以判断给定的一对实体片段是重叠的还是连续的，这样，我们不仅可以识别不连续的实体，同时也可以对重叠的实体进行双重检查。
+
+-Yan等。A Unified Generative Framework for Various NER Subtasks（2021ACL）[paper](https://arxiv.org/abs/2106.01223)  [code]( https://github.com/yhcc/BARTNER)
+<br>简介：我们提出将NER子任务定义为一个实体跨序列生成任务，该任务可以通过统一的Seq2Seq框架（BART）解决，利用三种类型的实体表示将实体线性化成一个序列。
+
 ## Named entity recognition
 - jie等。 Dependency-Guided LSTM-CRF for Named Entity Recognition（2019EMNLP）[paper](https://www.aclweb.org/anthology/D19-1399.pdf)  [code](http://www.statnlp.org/research/information-extraction)
 <br>简介：提出了一种简单但高效的依赖指导LSTM-CRF模型，能够编码完整的依赖树，并为命名实体识别任务捕获词的长距离和句法关系——通过这些关系能有效地推断出某些实体。分析表明，显著的改进主要来自依赖树提供的依赖关系和远程交互。
