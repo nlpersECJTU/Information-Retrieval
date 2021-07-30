@@ -44,7 +44,7 @@ Paper List for NER
 - Li等。A Span-Based Model for Joint Overlapped and Discontinuous Named Entity Recognition（2021ACL）[paper](https://www.researchgate.net/publication/353065282_A_Span-Based_Model_for_Joint_Overlapped_and_Discontinuous_Named_Entity_Recognition) [code]( https://github.com/foxlf823/sodner)
 <br>简介：提出了一种新的基于跨的模型，可以同时识别重叠和不连续的实体，首先，通过遍历所有可能的文本范围来识别实体片段，从而识别重叠的实体。其次，我们进行关系分类，以判断给定的一对实体片段是重叠的还是连续的，这样，我们不仅可以识别不连续的实体，同时也可以对重叠的实体进行双重检查。
 
--Yan等。A Unified Generative Framework for Various NER Subtasks（2021ACL）[paper](https://arxiv.org/abs/2106.01223)  [code]( https://github.com/yhcc/BARTNER)
+- Yan等。A Unified Generative Framework for Various NER Subtasks（2021ACL）[paper](https://arxiv.org/abs/2106.01223)  [code]( https://github.com/yhcc/BARTNER)
 <br>简介：我们提出将NER子任务定义为一个实体跨序列生成任务，该任务可以通过统一的Seq2Seq框架（BART）解决，利用三种类型的实体表示将实体线性化成一个序列。
 
 ## Named entity recognition
