@@ -1,4 +1,4 @@
-Named Entity Recognitionm, Event Detection and Extraction, Relation Classification and Extraction
+Named Entity Recognitionm, Event Detection and Extraction
 
 ## Named Entity Recognition
 - Unified Named Entity Recognition asWord-Word Relation Classification (AAAI 2022)
@@ -10,9 +10,6 @@ Named Entity Recognitionm, Event Detection and Extraction, Relation Classificati
 ## Event Detection and Extraction
 - Unified Structure Generation for Universal Information Extraction (ACL 2022)
 
-## Relation Classification and Extraction
-
-- Relation Classification via Convolutional Deep Neural Network (COLING 2014)
 
 ## Data
 ### NER
@@ -21,4 +18,3 @@ Named Entity Recognitionm, Event Detection and Extraction, Relation Classificati
 - OntoNotes 4.0 (usually used for Chinese NER) [https://catalog.ldc.upenn.edu/LDC2011T03]
 ### Event
 - LEVEN: A Large-Scale Chinese Legal Event Detection Dataset (Findings of ACL 2012)
-
