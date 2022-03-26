@@ -13,7 +13,7 @@ Named Entity Recognitionm, Event Detection and Extraction
 
 ## Data
 ### NER
-- CoNLL 2003 (usually used for English NER, publicly available)
+- CoNLL 2003 (usually used for English NER, publicly available) [https://www.clips.uantwerpen.be/conll2003/ner/]
 - OntoNotes 5.0 (usually used for English NER) [https://catalog.ldc.upenn.edu/LDC2013T19]
 - OntoNotes 4.0 (usually used for Chinese NER) [https://catalog.ldc.upenn.edu/LDC2011T03]
 ### Event
