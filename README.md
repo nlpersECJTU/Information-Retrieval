@@ -21,5 +21,4 @@ Named Entity Recognitionm, Event Detection and Extraction, Relation Classificati
 - OntoNotes 4.0 (usually used for Chinese NER) [https://catalog.ldc.upenn.edu/LDC2011T03]
 ### Event
 - LEVEN: A Large-Scale Chinese Legal Event Detection Dataset (Findings of ACL 2012)
-### Relation
-- 
+
