@@ -1,4 +1,4 @@
-Named Entity Recognitionm, Event Detection ...
+Named Entity Recognitionm, Event Detection&Extraction, Relation classification&extraction
 
 ## Nested named entity recognition
 
