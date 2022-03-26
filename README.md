@@ -1,4 +1,4 @@
-Paper List for NER
+Named Entity Recognitionm, Event Detection ...
 
 ## Nested named entity recognition
 
